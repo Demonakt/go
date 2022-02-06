@@ -7,10 +7,10 @@ func main() {
 	var token string
 
 	fmt.Println("Введите ваше имя")
-	fmt.Scanln(&name)
+	fmt.Scan(&name)
 
 	fmt.Println("Крестик или нолик?Введите X или O.")
-	fmt.Scanln(&token)
+	fmt.Scan(&token)
 
 	fmt.Println(name, token)
 }
